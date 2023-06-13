@@ -4,6 +4,8 @@ import {theme} from "./utils/styling";
 import GlobalStyle from "./components/atoms/GlobalStyles";
 import './utils/fontface.css'
 import {useWindowSize} from 'react-use'
+// import FleetBuilderScene from "./components/organisms/FleetBuilderScene";
+
 
 
 const ClientSideOnlyLazyFleetBuilderScene = React.lazy(() =>
@@ -13,6 +15,7 @@ function App() {
   const size = useWindowSize();
   useEffect(() => {
     document.documentElement.style.setProperty('--windowHeight', `${size.height}px`)
+    console.log("size", size)
 }, [size])
 
   const isSSR = typeof window === 'undefined'
@@ -25,6 +28,7 @@ function App() {
                     <ClientSideOnlyLazyFleetBuilderScene/>
                 </React.Suspense>
             )}
+            {/* <FleetBuilderScene /> */}
     </ThemeProvider>
   );
 }
