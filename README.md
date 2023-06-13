@@ -1,1 +1,1 @@
-A React app for Highland's Fleetbuilder page.
+React app for Highland's Fleetbuilder page.
