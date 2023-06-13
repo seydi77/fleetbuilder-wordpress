@@ -9,7 +9,7 @@ import {
   View,
 } from "@react-pdf/renderer";
 import { useStore } from "../../utils/store";
-import Mural from "../../assets/images/Mural-new.png";
+import Mural from "../../assets/fleet-builder/Mural-new.png";
 import UniversalSans from "../../assets/fonts/UniversalSans-500.ttf";
 import UniversalSansBold from "../../assets/fonts/UniversalSans-680.ttf";
 

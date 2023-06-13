@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import FleetReportForm from '../molecules/FleetReportForm'
 import PropTypes from 'prop-types'
 import {CSSTransition} from "react-transition-group";
-import mural from "../../assets/images/Mural-new.png"
+import mural from "../../assets/fleet-builder/Mural-new.png"
 
 const Holder = styled.div`
   position: fixed;
@@ -115,7 +115,7 @@ function FleetReport({show, hideReportHandler}) {
     <Holder className="fleet-report">
       <Left className="fleet-report-left">
         <ImageHolder>
-          <img src={mural} alt="Highland" />
+        <img src={mural} alt="mural" />
         </ImageHolder>
         <button onClick={() => hideReportHandler()}>Back to your fleet builder</button>
       </Left>
