@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from "prop-types";
-import BtnSvg from '../../assets/svg/mob-nav-button.inline.svg';
+import {ReactComponent as BtnSvg} from '../../assets/svg/mob-nav-button.inline.svg';
 
 const Holder = styled.div`
   position: fixed;

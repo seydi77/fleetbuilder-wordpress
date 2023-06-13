@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {useStore} from "../../utils/store";
-import BusPath from '../../assets/fleet-builder/data-output-path.inline.svg';
+import {ReactComponent as BusPath} from '../../assets/fleet-builder/data-output-path.inline.svg';
 
 const Holder = styled.div`
   position: relative;

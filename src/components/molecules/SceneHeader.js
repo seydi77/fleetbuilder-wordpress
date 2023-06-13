@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Icon from '../../assets/svg/icon.inline.svg';
+import {ReactComponent as Icon} from '../../assets/svg/icon.inline.svg';
 import SceneNavigation from "./SceneNavigation";
 
 const Holder = styled.div`

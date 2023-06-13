@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import styled from 'styled-components';
-import SpeechBubble from '../../assets/fleet-builder/intro-speech-bubble.inline.svg';
-import SpeechBubbleM from '../../assets/fleet-builder/intro-speech-bubble-m.inline.svg';
+import {ReactComponent as SpeechBubble} from '../../assets/fleet-builder/intro-speech-bubble.inline.svg';
+import {ReactComponent as SpeechBubbleM} from '../../assets/fleet-builder/intro-speech-bubble-m.inline.svg';
 import character from '../../assets/fleet-builder/intro-character.png';
 import useScrollTrigger from "../../hooks/useScrollTrigger";
 

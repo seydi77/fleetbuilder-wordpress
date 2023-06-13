@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import DataInputForm from "../molecules/DataInputForm";
 import PropTypes from "prop-types";
-import Logo from "../../assets/svg/logo.inline.svg";
+import {ReactComponent as Logo} from "../../assets/svg/logo.inline.svg";
 import ScrollInvitation from "../molecules/ScrollInvitation";
 
 const Holder = styled.div`
