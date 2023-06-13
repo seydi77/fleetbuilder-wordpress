@@ -15,7 +15,6 @@ function App() {
   const size = useWindowSize();
   useEffect(() => {
     document.documentElement.style.setProperty('--windowHeight', `${size.height}px`)
-    console.log("size", size)
 }, [size])
 
   const isSSR = typeof window === 'undefined'
