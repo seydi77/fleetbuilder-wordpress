@@ -2,10 +2,10 @@ import React, {useState} from 'react'
 import {ErrorMessage, Field, Form, Formik} from 'formik'
 import * as Yup from 'yup'
 import {PDFDownloadLink} from '@react-pdf/renderer'
-import PdfDocument from '../../organisms/fleet-builder/PdfDocument'
+import PdfDocument from '../organisms/PdfDocument'
 import styled from 'styled-components'
-import fleetReportImg from '../../../assets/fleet-builder/fleet-report-illustration.png'
-import {useStore} from "../../../utils/store";
+import fleetReportImg from '../../assets/fleet-builder/fleet-report-illustration.png'
+import {useStore} from "../../utils/store";
 
 const Holder = styled.div`
   .form {
