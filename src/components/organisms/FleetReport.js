@@ -77,6 +77,14 @@ const Left = styled.div`
 const ImageHolder = styled.div`
   width: 100%;
   margin-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    oject-fit: cover;
+    width: 80%;
+  }
 `
 
 const Right = styled.div`
