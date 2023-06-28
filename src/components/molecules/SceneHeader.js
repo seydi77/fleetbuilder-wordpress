@@ -33,7 +33,7 @@ const Holder = styled.div`
 function SceneHeader() {
   return (
     <Holder className="scene-header">
-      <a href="https://highlandfleets.com/"><Icon /></a>
+      <a href="https://highlandfleets.com/" target="_blank"><Icon /></a>
       <SceneNavigation />
     </Holder>
   )
